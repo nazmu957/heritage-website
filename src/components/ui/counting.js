@@ -24,7 +24,7 @@ const Counting = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#ECF5FF] w-[280px] h-[185px] p-4 flex flex-col justify-between">
+      <div className="bg-[#ECF5FF] w-full h-[185px] p-4 flex flex-col justify-between">
         <div>
           <h1 className="text-[40px] font-bold text-[#0051A1]">2K+</h1>
           <p className="text-[16px]">New Flat Listed</p>
