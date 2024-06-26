@@ -6,7 +6,7 @@ import Link from "next/link";
 const Findbutton = () => {
   return (
     <div className="my-[2rem]">
-      <Link href="/buyerSearch">
+      <Link href="/buyerPage">
         <button className="bg-[#ECF5FF] md:w-[210px] md:h-[56px] w-[160px] h-[45px] text-[#0059B1]  py-2 px-4 rounded">
           <div className="flex">
             <Image

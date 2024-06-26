@@ -167,6 +167,8 @@ const About = () => {
       <div className="flex justify-center">
         <Testimonials />
       </div>
+
+     
       <Footer />
     </div>
   );

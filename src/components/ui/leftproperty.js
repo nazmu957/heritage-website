@@ -4,6 +4,7 @@ import property1 from "../../assets/images/property-image1.jpg";
 import property2 from "../../assets/images/property-img-2.jpg";
 import play from "../../assets/images/Group 27.png";
 import Findbutton from "./findbutton";
+import line from "../../assets/images/Line 9.png";
 
 const Leftproperty = () => {
   return (
@@ -31,9 +32,16 @@ const Leftproperty = () => {
       {/* Right Side */}
       <div className="w-full md:w-1/2 p-4 md:mt-[4rem] mt-[23rem] md:p-[0px] px-[2rem]">
         <div className=" md:text-left">
-          <p className="md:text-[18px] text-[10px] text-[#F06711] font-semibold ">
+          {/* <p className="md:text-[18px] text-[10px] text-[#F06711] font-semibold ">
             Property buying
-          </p>
+          </p> */}
+
+          <div className="flex items-center mb-4">
+            <Image className="h-1 md:h-[.2rem] mt-3 mr-3" src={line} />
+            <h1 className="text-lg md:text-[18px] font-semibold text-[#EE6611]">
+              Property buying 
+            </h1>
+          </div>
           <h2 className="md:text-[40px] text-[25px]  font-bold mb-4">
             Efficient and Transparent <br /> Home Buying Solutions
           </h2>

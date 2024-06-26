@@ -16,7 +16,7 @@ import Link from "next/link";
 
 const BuyerPage = () => {
   return (
-    <div>
+    <div className="bg-white">
       <Navbar />
       <div className="relative w-full h-[400px]">
         <div className="absolute inset-0 z-10 bg-black opacity-50"></div>
@@ -27,8 +27,8 @@ const BuyerPage = () => {
           className="z-0"
           alt="Banner Image"
         />
-        <div className="absolute inset-0 flex justify-center items-center z-20">
-          <div className="w-full max-w-[984px] bg-white p-6 shadow-xl rounded-lg">
+        <div className="md:absolute md:inset-0 flex justify-center items-center md:z-20">
+          <div className="w-full max-w-[984px] bg-white p-6 shadow-xl rounded-lg md:mt-[10rem] mt-[30rem] ">
             <div className="font-semibold text-center">
               <button
                 className="button mx-4 text-[16px] hover:text-[#0059B1]"
@@ -115,7 +115,7 @@ const BuyerPage = () => {
             </div>
             <div className="flex justify-center mt-4">
               <Link href="/buyerSearch">
-                <button className="btn btn-primary w-full bg-[#0059B1] text-white flex items-center justify-center">
+                <button className="btn btn-primary w-full md:w-[58rem] bg-[#0059B1] text-white flex items-center justify-center">
                   <Image className="mr-2" src={search2} alt="Search Icon" />
                   Find Property
                 </button>
@@ -125,8 +125,10 @@ const BuyerPage = () => {
         </div>
       </div>
 
-      <Counting />
-      <div className="flex justify-between mx-5">
+      <div className="md:mx-[12rem] md:mt-[10rem] mt-[50rem] md:p-[0] p-5">
+        <Counting />
+      </div>
+      <div className="flex justify-between md:mx-[17rem]">
         <p className="text-[32px] font-semibold mx-3">Popular Properties</p>
         <div>
           <p className="underline text-[18px] text-[#0059B1] font-semibold">
@@ -135,7 +137,7 @@ const BuyerPage = () => {
         </div>
       </div>
       <Propertycard />
-      <div className="flex justify-between mx-5 mt-5">
+      <div className="flex justify-between md:mx-[17rem] mt-5">
         <p className="text-[32px] font-semibold mx-3">New Listed Properties</p>
         <div>
           <p className="underline text-[18px] text-[#0059B1] font-semibold">
@@ -144,10 +146,24 @@ const BuyerPage = () => {
         </div>
       </div>
       <Propertycard />
-      <h1 className="text-center text-[40px] font-bold mb-[3rem]">
+      <h1 className="text-center text-[35px] font-bold mb-[3rem]">
         Testimonials
       </h1>
       <Testimonials />
+
+      <div className="flex flex-col md:flex-row justify-between items-center bg-[#fdf0e7] h-auto md:h-[166px] p-4 md:p-0">
+        <div className="md:p-8 flex-1 text-center md:text-left">
+          <h1 className="text-[20px] font-semibold mb-2">
+            Post your Property for free
+          </h1>
+          <p>List it on Your Propriety and get genuine leads</p>
+        </div>
+        <div className="mt-4 md:mt-0 md:p-8">
+          <button className="px-6 md:px-12 text-white font-semibold py-2 md:py-4 bg-[#f06224] rounded">
+            Post Property
+          </button>
+        </div>
+      </div>
       <Footer />
     </div>
   );

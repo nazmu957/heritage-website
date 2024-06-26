@@ -31,14 +31,14 @@ const Navbar = () => {
             </svg>
           </button>
           <div className="hidden md:flex font-[Montserrat] ms-4 md:ms-[112px]">
-            <Link href="/propertyDetail" className="text-[18px] mx-2 md:mx-4">
+            <Link href="/buyerPage" className="text-[18px] mx-2 md:mx-4">
               Buy
             </Link>
-            <Link href="/buyerPage" className="mx-2 md:mx-4">
+            <Link href="/propertyDetail" className="mx-2 md:mx-4">
               Sell
             </Link>
-            <Link href="/propertyDetail" className="mx-2 md:mx-4">
-              Service
+            <Link href="/" className="mx-2 md:mx-4">
+              Services
             </Link>
             <Link href="/about" className="mx-2 md:mx-4">
               About
@@ -51,7 +51,10 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="navbar-end flex items-center">
-          <Link href="/signIn" className="me-4 md:me-[112px]">
+          <Link
+            href="/signIn"
+            className="me-4 md:me-[112px] bg-[#c4e2fe] w-[96px] h-[40px] text-center text-[14px] pt-2 font-[600]"
+          >
             Sign In
           </Link>
         </div>
@@ -64,10 +67,10 @@ const Navbar = () => {
             <Link href="/buyerPage" className="text-[18px]">
               Buy
             </Link>
-            <Link href="/buyerSearch" className="text-[18px]">
+            <Link href="/propertyDetail" className="text-[18px]">
               Sell
             </Link>
-            <Link href="/propertyDetail" className="text-[18px]">
+            <Link href="/" className="text-[18px]">
               Service
             </Link>
             <Link href="/about" className="text-[18px]">

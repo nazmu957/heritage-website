@@ -23,6 +23,7 @@ import item8 from "../assets/images/Frame 157.png";
 import item9 from "../assets/images/Frame 158.png";
 import Otherservice from "@/components/ui/otherservice";
 import Propertycard from "@/components/ui/propertycard";
+import radio from '../assets/images//Frame radio.png'
 import Link from "next/link";
 
 const PropertyDetail = () => {
@@ -155,6 +156,13 @@ const PropertyDetail = () => {
                 className="border border-gray-300 p-2 w-full"
               />
             </div>
+            <div>
+                <Image className="my-4 w-[33rem] h-[2rem]" src={radio}></Image>
+            </div>
+            <div className="flex justify-between">
+                <div>$ 280k</div>
+                <div>$ 305k</div>
+            </div>
             <div className="flex justify-center mt-5">
               <Link href="/">
                 <button className="px-4 bg-[#0059B1] text-white w-[166px] h-[48px] rounded-sm mt-5 md:mt-[5rem]">
@@ -175,33 +183,7 @@ const PropertyDetail = () => {
       <div className="card w-full md:w-[90%] md:ml-[6rem] bg-[#F9FAFB] mt-4">
         <div className="card-body">
           <p className="font-semibold text-3xl md:text-4xl">Amenities</p>
-          {/* <div className="h-[56px] mt-4">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-5 items-center">
-              <Image src={item1} className="mx-2 my-2 md:mx-5 md:my-5" />
-              <Image src={item2} className="mx-2 my-2 md:mx-5 md:my-5" />
-              <Image src={item3} className="mx-2 my-2 md:mx-5 md:my-5" />
-              <Image src={item4} className="mx-2 my-2 md:mx-5 md:my-5" />
-            </div>
-          </div> */}
-          {/* <div className="grid grid-cols-1 md:grid-cols-5 gap-4 mt-8">
-            <div className="w-full">
-              <Image src={item5} />
-            </div> <br />
-            <div className="w-full">
-              <Image src={item6} />
-            </div> <br />
-            <div className="w-full">
-              <Image src={item7} />
-            </div>
-            <br />
-            <div className="w-full">
-              <Image src={item8} />
-            </div>
-            <br />
-            <div className="w-full">
-              <Image src={item9} />
-            </div>
-          </div> */}
+          
 
           <div className="flex justify-center">
             <Image src={item5} />
@@ -227,7 +209,7 @@ const PropertyDetail = () => {
           Other Nearby Properties
         </p>
         <div>
-          <p className="underline  md:text-2xl text-[#0059B1] font-semibold">
+          <p className="underline  md:text-xl text-[#0059B1] font-semibold">
             See all property
           </p>
         </div>
