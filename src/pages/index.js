@@ -12,10 +12,12 @@ const Homepage = () => {
     <div className="bg-white text-black">
       <Navbar />
       <Banner />
-      <Leftproperty />
-      <Rightproperty />
-      <Otherproperty />
-      <Otherservice />
+      <div className="">
+        <Leftproperty />
+        <Rightproperty />
+        <Otherproperty />
+        <Otherservice />
+      </div>
       <Footer />
     </div>
   );

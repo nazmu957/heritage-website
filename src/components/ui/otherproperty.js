@@ -7,7 +7,7 @@ import Findbutton from "./findbutton";
 
 const Otherproperty = () => {
   return (
-    <div className="flex flex-wrap justify-center  relative h-[504px] my-[5rem]">
+    <div className="flex flex-wrap justify-center  relative h-[504px] md:my-[3rem] my-[12rem]">
       {/* Left Side */}
       <div className="w-full md:w-1/2  relative md:mb-[0rem] mb-[18rem]">
         <Image
@@ -25,7 +25,7 @@ const Otherproperty = () => {
       </div>
       {/* Right Side */}
       <div className="w-full md:w-1/2 p-4 mt-[4rem]">
-        <div className=" md:text-left">
+        <div className=" md:text-left  ">
           <p className="md:text-[18px] text-[15px] text-[#F06711] font-semibold ">
             Property buying
           </p>

@@ -3,7 +3,7 @@ import React from "react";
 import home from "../../assets/images/Home.png";
 const Otherservice = () => {
   return (
-    <div className="p-[1rem] md:p-[5rem] md:mt-[0px] mt-[12rem]">
+    <div className="p-[1rem] md:p-[5rem] md:mt-[0px] ">
       <h1 className="text-center text-[24px] md:text-[40px] font-bold mb-[2rem] md:mb-[5rem]">
         Other Service
       </h1>

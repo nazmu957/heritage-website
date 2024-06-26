@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import buyerframe from "../assets/images/Frame 108.jpg";
 import search from "../assets/images/search-icon.svg";
-import search2 from "../assets/images//Magnifer-white.png";
+import search2 from "../assets/images/Magnifer-white.png";
 import location from "../assets/images/Group 44.png";
 import home from "../assets/images/fi-bs-home-location.png";
 import dollar from "../assets/images/Dollar Minimalistic.png";
@@ -17,8 +17,8 @@ import Link from "next/link";
 const BuyerPage = () => {
   return (
     <div>
+      <Navbar />
       <div className="absolute inset-0 z-0">
-        <Navbar />
         <div className="relative w-full h-[309px]">
           <div className="absolute inset-0 z-10 bg-black opacity-50"></div>
           <Image

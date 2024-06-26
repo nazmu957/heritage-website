@@ -14,6 +14,11 @@ const Leftproperty = () => {
           className=" md:w-[458px] md:h-[400px] w-[230px] h-[200px] absolute top-0 left-0 opacity-80 md:ms-[5rem] ms-[2rem]  mt-[5rem] "
           src={property1}
         ></Image>
+        {/* <img
+          className=" md:w-[458px] md:h-[400px] w-[230px] h-[200px] absolute top-0 left-0 opacity-80 md:ms-[5rem] ms-[2rem]  mt-[5rem] "
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk5wjVVEfV5BRHpV19oZ8oMCPvCZQhStMujA&s"
+          alt=""
+        /> */}
         <Image
           className="md:w-[452px] md:h-[240px] w-[70%] h-[150px] absolute md:top-[20rem] top-[12rem] md:left-[6rem] left-[5rem] md:ms-[5rem]"
           src={property2}
